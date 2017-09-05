@@ -63,22 +63,3 @@ function fechaPorDia(año, dia) {
   var date = new Date(año, 0);
   return new Date(date.setDate(dia));
 }
-function estructurar() {
-  //Mes
-  let mes = document.createElement("DIV");
-  mes.className = "mes";
-  document.body.appendChild(mes);
-  //Tabla
-  let tabla_mes = document.createElement("TABLE");
-  tabla_mes.className = "tabla_mes";
-  mes.appendChild(tabla_mes);
-  //Título
-  let titulo = document.createElement("CAPTION");
-  titulo.className = "titulo";
-  titulo.innerText = "Enero";
-  tabla_mes.appendChild(titulo);
-}
-
-var mes_text = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-
-estructurar();
