@@ -1,2 +1,3 @@
-#Calendario con Js
-este es un calendario
+# Calendario con JS
+Este es un proyecto usando HTML, CSS, JavScript y un archivo PHP
+"# Calendario-2017" 
